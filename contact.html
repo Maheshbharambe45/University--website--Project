@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- connecters -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+     <!-- connecters end -->
+</head>
+<body>
+    <section class="sub-header">
+     <nav>
+        <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+     </nav>  
+     <h1>Contact US</h1>
+    </section>
+     <!-- --------Contact us start------------ -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59601.01887360231!2d75.57542325!3d20.99008435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90fa4a1eab90f%3A0x37f67bd21bff0a3c!2sJalgaon%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1726209261047!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Shiv Colony , Sapkale apartment</h5>
+                        <p>Jalgaon , Maharashtra IN</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 - 9067427967</h5>
+                        <p>Monday To Friday , 10 Am to 6:30 Pm </p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>
+                        <h5>support.mb@gmail.com</h5>
+                        <p> Email Us Your Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                    <input type="text" name="Subject" placeholder="Enter Your Subject " required>
+                    <textarea rows="8" name="message" placeholder="Massage" required></textarea>
+                    <button type="submit" class="know-btn red-btn">Send Massage</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+     <!-- -------------contact us end--------- -->
+    
+
+
+     
+
+     <!-- ---------Footer start-------------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>A college website needs to meet the needs of many different users.
+             <br>Every site has to provide vital information to current students, staff, parents, and alumni.
+            </p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <p>Made By Mahesh_Bharambe &nbsp;<i class="fa-regular fa-copyright"></i>&nbsp; 2024-25 </p>
+        </section>
+        <!-- ---------Footer end-------------->
+
+    <!----------Javascript code for menu------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+      <!-- --------Javascript code------ -->
+</body>     
+</html>
