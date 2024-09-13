@@ -26,7 +26,7 @@ University Website Project
 - assets/: Folder containing images and other assets used in the website
 - (link unavailable): This file, containing information about the project
 
-Live Demo: <a href="https://maheshbharambe45.github.io/Universirty-Website-project/">Live Website</a>
+Live Demo: <a href="https://maheshbharambe45.github.io/University--website--Project/">Live Website</a>
 
 <b>Contribution: Feel free to fork and contribute to this project! Suggestions and improvements are welcome.</b>
 
